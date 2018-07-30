@@ -15,9 +15,6 @@ class Header extends Component {
                     <li>FOTOS</li>
                     <li>INFORMAÇÕES</li>
                 </ul>
-                <div>
-
-                </div>
             </div>
         );
     }

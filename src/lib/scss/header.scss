@@ -3,13 +3,14 @@
     align-items: center;
     justify-content: space-around;
     height: 80px;
+    // background-color: black;
+    width: 100vw;
+    position: absolute;
+    color: white;
     &-left, &-right {
         list-style-type: none;
         display: flex;
         justify-content: space-around;
         width: 30vw;
-        >li {
-               
-        }
     }
 }

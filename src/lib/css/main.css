@@ -3,7 +3,10 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 80px; }
+  height: 80px;
+  width: 100vw;
+  position: absolute;
+  color: white; }
   .Header-left, .Header-right {
     list-style-type: none;
     display: flex;
@@ -13,6 +16,13 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Lato', sans-serif; }
+  font-family: 'Lato', sans-serif;
+  outline: 1px solid white;
+  outline-offset: -10px; }
+
+.Main-background {
+  background-image: url("../static/img/pontesm.jpg");
+  background-size: 1400px;
+  height: 400px; }
 
 /*# sourceMappingURL=main.css.map */
