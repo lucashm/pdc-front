@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80px; }
+  .Header-left, .Header-right {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 30vw; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif; }
+
+/*# sourceMappingURL=main.css.map */
