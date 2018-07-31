@@ -7,8 +7,8 @@ class Header extends Component {
         return (
             <div className="Header">
                 <div className="Header-top">
-                    <img src={LogoImg} width='160px' classname="Header-logoImg" />
-                    <img src={LogoName} width='200px' style={{marginLeft: '30px'}} classname="Header-logoName" />
+                    <img src={LogoImg} width='160px' className="Header-logoImg" />
+                    <img src={LogoName} width='200px' style={{marginLeft: '30px'}} className="Header-logoName" />
                 </div>
                 <ul className="Header-bottom">
                     <li>GASTRONOMIA</li>

@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
+import CarouselPage from '../components/carousel';
 
 
 class Main extends Component {
     render() {
         return (
             <div className="App">
-                <p className="App-intro">
-                    AAAAAAAAAAAAAAAAA
-                </p>
+                
+                    <CarouselPage />
+               
             </div>
         );
     }

@@ -1,7 +1,7 @@
 .Header {
     margin-top: 15px;
     width: 100%;
-    color: #2980b9;
+    color: $main-color;
     letter-spacing: 2px;
     font-weight: bold;
 
@@ -18,15 +18,15 @@
         display: flex;
         justify-content: space-around;
         padding-bottom: 15px;
-        border-bottom: 1px dotted #2980b9;
+        border-bottom: 1px dotted $main-color;
     }
 
     &-logoImg {
-        width: 50%;
+        width: 160px;
     }
 
     &-logoName {
-        margin-left: 50px;
+        margin-left: 180px;
     }
 
 
