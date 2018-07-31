@@ -7,7 +7,7 @@ import ImgThree from '../lib/static/img/carousel3.jpg';
 import {Carousel} from 'react-bootstrap';
 class CarouselPage extends Component {
     render() {
-        let width = window.innerWidth*0.8;
+        let width = window.innerWidth*0.9;
         return (
             <Carousel>
                 <Carousel.Item>
