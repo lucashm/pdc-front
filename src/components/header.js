@@ -1,18 +1,20 @@
 import React, { Component } from 'react';
+import LogoName from '../lib/static/img/logo-name.png';
+import LogoImg from '../lib/static/img/logo-img.png';
 
 class Header extends Component {
     render() {
         return (
             <div className="Header">
-                <ul className="Header-left">
+                <div className="Header-top">
+                    <img src={LogoImg} width='160px' classname="Header-logoImg" />
+                    <img src={LogoName} width='200px' style={{marginLeft: '30px'}} classname="Header-logoName" />
+                </div>
+                <ul className="Header-bottom">
                     <li>GASTRONOMIA</li>
                     <li>ACOMODAÇÕES</li>
-                </ul>
-                <div className="Header-center">
-                    <p>PORTAL DO CORRENTE</p>
-                </div>
-                <ul className="Header-right">
                     <li>FOTOS</li>
+                    <li>OFERTAS</li>
                     <li>INFORMAÇÕES</li>
                 </ul>
             </div>

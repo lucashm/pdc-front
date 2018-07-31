@@ -5,9 +5,8 @@ class Main extends Component {
     render() {
         return (
             <div className="App">
-            <div className="Main-background"/>
                 <p className="App-intro">
-                    MAIN
+                    AAAAAAAAAAAAAAAAA
                 </p>
             </div>
         );

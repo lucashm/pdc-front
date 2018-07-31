@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "concurrently": "^3.6.1",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-router": "^4.3.1",
@@ -10,9 +11,15 @@
     "react-scripts": "1.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "concurrently \"react-scripts start\"  \"npm run watch-css\" ",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build-css": "node-sass --include-path scss src/lib/scss/main.scss src/lib/css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\" "
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.2",
+    "nodemon": "^1.18.3"
   }
 }
