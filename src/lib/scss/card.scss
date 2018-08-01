@@ -18,6 +18,11 @@
         border-bottom: 1px dotted $main-color;
     }
 
+    &-img {
+        width: 270px;
+        height: 180px;
+    }
+
     &-button {
         background-color: $main-color;
         color: white;
@@ -38,5 +43,7 @@
 
     &-info {
         margin-top: -20px;
+        word-break: break-word;
+        height: 60px;
     }
 }

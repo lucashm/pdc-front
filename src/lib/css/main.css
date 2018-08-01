@@ -44,6 +44,9 @@
     line-height: 1.25em;
     padding-bottom: 5px;
     border-bottom: 1px dotted #2980b9; }
+  .Card-img {
+    width: 270px;
+    height: 180px; }
   .Card-button {
     background-color: #2980b9;
     color: white;
@@ -60,7 +63,9 @@
       cursor: pointer;
       color: white; }
   .Card-info {
-    margin-top: -20px; }
+    margin-top: -20px;
+    word-break: break-word;
+    height: 60px; }
 
 body {
   margin: 0;
