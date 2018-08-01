@@ -17,4 +17,26 @@
         padding-bottom: 5px;
         border-bottom: 1px dotted $main-color;
     }
+
+    &-button {
+        background-color: $main-color;
+        color: white;
+        border: none;
+        padding: 5px;
+        position: relative;
+        bottom: 23px;
+        left: 99px;
+        margin-bottom: -30px;
+        &:hover {
+            text-decoration: none;
+            background-color: lighten($main-color, 10%);
+            transition: background-color .3s ease-in;
+            cursor: pointer;
+            color: white;
+        }
+    }
+
+    &-info {
+        margin-top: -20px;
+    }
 }

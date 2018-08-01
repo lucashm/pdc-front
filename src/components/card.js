@@ -7,7 +7,8 @@ class Card extends Component {
             <div className='Card'>
                 <h1 className='Card-title'>{this.props.title}</h1>
                 <img width={270} src={this.props.img} />
-                <p>{this.props.info}</p>
+                <a className='Card-button'>VER MAIS</a>
+                <p className='Card-info'>{this.props.info}</p>
             </div>
         );
     }

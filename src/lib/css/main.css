@@ -7,7 +7,7 @@
   font-weight: bold; }
   .Header-top {
     display: flex;
-    img-margin: 20px;
+    align-items: center;
     margin: 20px; }
   .Header-bottom {
     list-style-type: none;
@@ -15,10 +15,12 @@
     justify-content: space-around;
     padding-bottom: 15px;
     border-bottom: 1px dotted #2980b9; }
+    .Header-bottom > li:hover {
+      cursor: pointer;
+      transition: color .2s ease-in;
+      color: #6ab0de; }
   .Header-logoImg {
     width: 160px; }
-  .Header-logoName {
-    margin-left: 180px; }
 
 .carousel-control.left, .carousel-control.right {
   background-image: none; }
@@ -42,6 +44,23 @@
     line-height: 1.25em;
     padding-bottom: 5px;
     border-bottom: 1px dotted #2980b9; }
+  .Card-button {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 5px;
+    position: relative;
+    bottom: 23px;
+    left: 99px;
+    margin-bottom: -30px; }
+    .Card-button:hover {
+      text-decoration: none;
+      background-color: #409ad5;
+      transition: background-color .3s ease-in;
+      cursor: pointer;
+      color: white; }
+  .Card-info {
+    margin-top: -20px; }
 
 body {
   margin: 0;
