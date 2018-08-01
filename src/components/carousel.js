@@ -7,11 +7,12 @@ import ImgThree from '../lib/static/img/carousel3.jpg';
 import {Carousel} from 'react-bootstrap';
 class CarouselPage extends Component {
     render() {
-        let width = window.innerWidth*0.9;
+        let width = window.innerWidth*0.8;
         return (
+            <div style={{width: width, margin: '0 auto'}}>
             <Carousel>
                 <Carousel.Item>
-                    <img width={width} height={500} alt="500x500" src={ImgOne} />
+                    <img  width={width} height={500} alt="500x500" src={ImgOne} />
                     <Carousel.Caption>
                         <h3>First slide label</h3>
                         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -32,6 +33,7 @@ class CarouselPage extends Component {
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
+            </div>
         );
     }
 }

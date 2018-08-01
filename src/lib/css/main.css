@@ -25,6 +25,24 @@
   .carousel-control.left > span, .carousel-control.right > span {
     color: #2980b9; }
 
+.CardWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.Card {
+  width: 270px;
+  margin: 0 10px; }
+  .Card-title {
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 1.25em;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #2980b9; }
+
 body {
   margin: 0;
   padding: 0;
