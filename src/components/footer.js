@@ -22,7 +22,6 @@ class Footer extends Component {
                     <h4>Acompanhe também</h4>
                     <div className="Footer-followus-icons">
                         <Icon name="facebook" />
-                        <Icon name="twitter" />
                         <Icon name="book" />
                     </div>
                 </div>
