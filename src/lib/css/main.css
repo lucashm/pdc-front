@@ -67,6 +67,44 @@
     word-break: break-word;
     height: 60px; }
 
+.Footer {
+  width: 100vw;
+  background-color: #2980b9;
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  .Footer p {
+    color: white; }
+  .Footer-title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 35px 10px 35px; }
+    .Footer-title h2,
+    .Footer-title h3 {
+      margin: 0;
+      color: white; }
+  .Footer-stars span {
+    color: white;
+    margin: 2px; }
+  .Footer-info {
+    margin: 10px 35px 10px 35px; }
+    .Footer-info p {
+      margin: 0; }
+  .Footer-followus {
+    margin: 10px 35px 10px 35px; }
+    .Footer-followus h4 {
+      color: white; }
+    .Footer-followus span {
+      color: white;
+      font-size: 30px;
+      margin: 0 15px 0 15px; }
+    .Footer-followus-icons {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+
 body {
   margin: 0;
   padding: 0;

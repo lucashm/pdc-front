@@ -1,0 +1,42 @@
+import React, { Component } from 'react';
+import LogoName from '../lib/static/img/logo-name.png';
+import LogoImg from '../lib/static/img/logo-img.png';
+import Icon from 'react-fa';
+
+class Footer extends Component {
+    render() {
+        return (
+            <div className="Footer">
+                <div className="Footer-title">
+                    <h3> Hotel </h3>
+                    <h2>Portal do Corrente</h2>
+                    <div className="Footer-stars">
+                        <Icon name="star" />
+                        <Icon name="star" />
+                        <Icon name="star" />
+                        <Icon name="star" />
+                        <Icon name="star" />
+                    </div>
+                </div>
+                <div className="Footer-followus">
+                    <h4>Acompanhe também</h4>
+                    <div className="Footer-followus-icons">
+                        <Icon name="facebook" />
+                        <Icon name="twitter" />
+                        <Icon name="book" />
+                    </div>
+                </div>
+                <div className="Footer-info">
+                    <p>Santa Maria da Vitória - BA </p>
+                    <p>Rua Jeremias Rodrigues da Silva, nº 750 </p>
+                    <p>CEP: 47640-000 </p>
+                    <p>Contato e reservas:</p>
+                    <p>(77) 3483-3000 </p>
+
+                </div>
+            </div>
+        );
+    }
+}
+
+export default Footer;
