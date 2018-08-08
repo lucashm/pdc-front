@@ -22,10 +22,35 @@
   .Header-logoImg {
     width: 160px; }
 
-.carousel-control.left, .carousel-control.right {
-  background-image: none; }
-  .carousel-control.left > span, .carousel-control.right > span {
-    color: #165F96; }
+.newLegend {
+  background-color: black !important;
+  color: #165F96 !important;
+  margin-bottom: 26px;
+  text-align: center;
+  margin-left: 38px; }
+
+.thumbs.animated {
+  display: none; }
+
+.carousel-status {
+  display: none; }
+
+.carousel.control-dots {
+  margin: 0 !important;
+  margin-bottom: 0 !important; }
+
+.dot.selected {
+  background: #3195e1 !important; }
+
+.dot {
+  background: #3195e1 !important;
+  opacity: 0.7; }
+
+.control-arrow.control-next, .control-arrow.control-prev {
+  background: #165F96 !important; }
+  .control-arrow.control-next:hover, .control-arrow.control-prev:hover {
+    opacity: 0.7 !important;
+    background: #3195e1; }
 
 .CardWrapper {
   display: flex;
@@ -114,7 +139,9 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Lato', sans-serif; }
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
+  width: 100vw; }
 
 .Main-background {
   background-image: url("../static/img/pontesm.jpg");
