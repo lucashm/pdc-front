@@ -9,10 +9,10 @@ class MainContent extends Component {
     render() {
         return (
             <div className='CardWrapper'>
-                <Card title='Indicações' img={Bridge} info='eai como vem' />
-                <Card title='Gastronomia' img={Sushi} info='Este é um teste bem ousado se você parar pra pensar né po a vida é massa tipo pizza' />
-                <Card title='Quartos' img={Room} info='OWOWOWOWOWO' />
-                <Card title='Indicações' img={Church} info='wawwwaWOAOOOSSODKASOKDOKAQQQQQQQQQQQQQQ' />
+                <Card title='Indicações' img={Bridge} info='Visite os pontos da cidade!' />
+                <Card title='Gastronomia' img={Sushi} info='O melhor da gastronomia local' />
+                <Card title='Quartos' img={Room} info='Consulte nossas opções' />
+                <Card title='Indicações' img={Church} info='Visite os pontos da cidade!' />
             </div>
         );
     }

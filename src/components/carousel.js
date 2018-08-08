@@ -14,22 +14,22 @@ class CarouselPage extends Component {
                 <Carousel.Item>
                     <img  width={width} height={500} alt="500x500" src={ImgOne} />
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3>Hotel Portal do Corrente</h3>
+                        <p></p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img width={width} height={500} alt="500x500" src={ImgTwo} />
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3></h3>
+                        <p></p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img width={width} height={500} alt="500x500" src={ImgThree} />
                     <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <h3>Pontos da cidade</h3>
+                        <p>O melhor de Santa Maria!</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

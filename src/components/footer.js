@@ -4,6 +4,12 @@ import LogoImg from '../lib/static/img/logo-img.png';
 import Icon from 'react-fa';
 
 class Footer extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            year: (new Date()).getFullYear()
+        }
+    }
     render() {
         return (
             <div className="Footer">
@@ -31,6 +37,7 @@ class Footer extends Component {
                     <p>CEP: 47640-000 </p>
                     <p>Contato e reservas:</p>
                     <p>(77) 3483-3000 </p>
+                    <p>{this.state.year}</p>
 
                 </div>
             </div>
